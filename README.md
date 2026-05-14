@@ -1,4 +1,4 @@
-# CodeLens Research 🔬
+# CodeLens
 
 > **Code → Research Paper Generator**  
 > Converts source code into structured, publication-ready research paper sections using a fine-tuned CodeT5+ / T5 seq2seq pipeline.
