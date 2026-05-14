@@ -3,15 +3,17 @@
 > **Code → Research Paper Generator**  
 > Converts source code into structured, publication-ready research paper sections using a fine-tuned CodeT5+ / T5 seq2seq pipeline.
 
----
+
 
 ## Screenshots
 
-![CodeLens - Code Input](assets/screenshot1.png)
+<img width="2800" height="1556" alt="image" src="https://github.com/user-attachments/assets/c503d5b9-5ea1-4fc3-a5b9-90cbf051850d" />
 
-![CodeLens - Document Options](assets/screenshot2.png)
+<img width="2338" height="1172" alt="image" src="https://github.com/user-attachments/assets/fa8fad38-fdbc-4e43-82f6-78dc99b6dfd3" />
 
----
+
+
+
 
 ## What It Does
 
@@ -25,7 +27,7 @@ Paste in a code snippet and get back a full academic paper draft:
 | Results | Performance analysis |
 | Conclusion | Findings & future directions |
 
----
+
 
 ## Architecture
 
@@ -100,8 +102,6 @@ model.train(dataset)
 ]
 ```
 
----
-
 ## Evaluation
 
 ROUGE-1/2/L scores are computed automatically during training and can be run manually:
@@ -113,7 +113,7 @@ evaluator = PaperEvaluator()
 scores = evaluator.evaluate(generated_paper, reference_paper)
 ```
 
----
+
 
 ## Project Structure
 
@@ -128,7 +128,7 @@ codelens-research/
 └── README.md
 ```
 
----
+
 
 ## Configuration
 
@@ -143,8 +143,3 @@ All settings live in `config.py`. Key options:
 | `num_beams` | 5 | Beam search width |
 | `learning_rate` | 3e-4 | Adam learning rate |
 
----
-
-## License
-
-MIT
