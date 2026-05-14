@@ -5,6 +5,14 @@
 
 ---
 
+## Screenshots
+
+![CodeLens - Code Input](assets/screenshot1.png)
+
+![CodeLens - Document Options](assets/screenshot2.png)
+
+---
+
 ## What It Does
 
 Paste in a code snippet and get back a full academic paper draft:
